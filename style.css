@@ -35,8 +35,16 @@ li{
     margin: 0 15px;
     transition: all .6s ease-in;
 }
-li:hover{
+.active{
     transform: scale(1.1);
+    border-bottom: 2px solid #EFF7F6;
+}
+li:hover{
+    transform: scale(1.15);
+}
+li a{
+    text-decoration: none;
+    color: #EFF7F6;
 }
 #result .container{
     padding: 20px 30px;
@@ -119,6 +127,9 @@ footer a{
     }
     #result p{
         font-size: 30px;
+    }
+    .active{
+        transform: scale(1.05);
     }
 }
 
